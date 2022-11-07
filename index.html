@@ -46,8 +46,8 @@
           console.log(metallica.data);
           for (data of metallica.data) {
             const row = document.querySelector(".row");
-            row.innerHTML += `<div class="card col-3 mt-4">
-                                    <img src="${data.album.cover}" class="card-img-top" alt="...">
+            row.innerHTML += `<div class="card col-4 mt-4">
+                                    <img src="${data.album.cover_big}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                     <h5 class="card-title">${data.artist.name}</h5>
                                     <p class="card-text">Title: ${data.title}</p>
@@ -67,8 +67,8 @@
           console.log(pinkFloyd.data);
           for (data of pinkFloyd.data) {
             const row = document.querySelector(".row");
-            row.innerHTML += `<div class="card col-3 mt-4">
-                                    <img src="${data.album.cover}" class="card-img-top" alt="...">
+            row.innerHTML += `<div class="card col-4 mt-4">
+                                    <img src="${data.album.cover_big}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                     <h5 class="card-title">${data.artist.name}</h5>
                                     <p class="card-text">Title: ${data.title}</p>
@@ -88,8 +88,8 @@
           console.log(daftPunk.data);
           for (data of daftPunk.data) {
             const row = document.querySelector(".row");
-            row.innerHTML += `<div class="card col-3 mt-4">
-                                    <img src="${data.album.cover}" class="card-img-top" alt="...">
+            row.innerHTML += `<div class="card col-4 mt-4">
+                                    <img src="${data.album.cover_big}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                     <h5 class="card-title">${data.artist.name}</h5>
                                     <p class="card-text">Title: ${data.title}</p>
